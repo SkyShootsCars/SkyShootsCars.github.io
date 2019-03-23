@@ -1,4 +1,121 @@
-html { 
+html {
+  background-color: black;
+  -webkit-background-size: ;
+  -moz-background-size: ;
+  -o-background-size: ;
+  background-size: ;
+}
+
+#sidebar{
+	background:#151718;
+	width:200px;
+	height:200%;
+	display:block;
+	position:absolute;
+	left:-200px;
+	top:0px;
+	transition:left 0.3s linear;
+}
+
+#sidebar.visible{
+	left:0px;
+	transition:left 0.3s linear;
+}
+
+ul{
+	margin:0px;
+	padding:0px;
+}
+
+ul li{
+	list-style:none;
+}
+
+ul li a{
+	background:#1C1E1F;
+	color:#ccc;
+	border-bottom:1px solid #111;
+	display:block;
+	width:180px;
+	padding:10px;
+	text-decoration: none;
+}
+
+#sidebar-btn{
+	display:inline-block;
+	vertical-align: middle;
+	width:20px;
+	height:15px;
+	cursor:pointer;
+	margin:20px;
+	position:absolute;
+	top:0px;
+	right:-60px;
+}
+
+#sidebar-btn span{
+	height:1px;
+	background:white;
+	margin-bottom:5px;
+	display:block;
+}
+
+#sidebar-btn span:nth-child(2){
+	width:75%;
+}
+
+#sidebar-btn span:nth-child(3){
+	width:50%;
+}
+ .box{
+	background-color: ;
+    position: absolute;
+    height: 30%;
+    width: 90%;
+    left: 5%;
+    top: 0%;
+	allign: center;
+}
+
+ .titles{
+   display: none;
+ }
+
+footer {
+    padding-top: 850px;
+	padding-left: 200px;
+}
+
+ .title{
+	background-color: url(Background.jpg);
+    position: absolute;
+    height: 40%;
+    width: 30%;
+    left: 30%;
+    top: 20%;
+    allign: left;
+    padding-left: 100px;
+}
+
+  .mainbox{
+  	background-color: grey;
+  	position: absolute;
+  	border-radius: 1%;
+  	height: 565%;
+  	width: 126.59%;
+	left: 0%;
+  	top: 40%;
+  	allign: center;
+  }
+  	.picture{
+  		padding-top: 4%;
+  		padding-left: 0px;
+      width: 50%
+    }
+
+    @media only screen and (min-width: 768px) {
+
+      html {
   background-color: black;
   -webkit-background-size: ;
   -moz-background-size: ;
@@ -67,7 +184,7 @@ ul li a{
 #sidebar-btn span:nth-child(3){
 	width:50%;
 }
- .box{ 
+ .box{
 	background-color: ;
     position: absolute;
     height: 30%;
@@ -82,7 +199,124 @@ footer {
 	padding-left: 200px;
 }
 
- .title{ 
+ .title{
+	background-color: url(Background.jpg);
+    position: absolute;
+    height: 40%;
+    width: 30%;
+    left: 30%;
+    top: 20%;
+    allign: left;
+    padding-left: 100px;
+}
+
+  .mainbox{
+  	background-color: grey;
+  	position: absolute;
+  	border-radius: 1%;
+  	height: 387%;
+  	width: 77%;
+	  left: 1%;
+  	top: 25%;
+    margin: 0 auto;
+  	allign: center;
+  }
+
+
+  	.picture{
+  		padding-top: 4%;
+  		padding-left: 10%;
+  	}
+
+    }
+
+    @media only screen and (min-width: 1500px){
+
+          html {
+  background-color: black;
+  -webkit-background-size: ;
+  -moz-background-size: ;
+  -o-background-size: ;
+  background-size: ;
+}
+
+#sidebar{
+	background:#151718;
+	width:200px;
+	height:100%;
+	display:block;
+	position:absolute;
+	left:-200px;
+	top:0px;
+	transition:left 0.3s linear;
+}
+
+#sidebar.visible{
+	left:0px;
+	transition:left 0.3s linear;
+}
+
+ul{
+	margin:0px;
+	padding:0px;
+}
+
+ul li{
+	list-style:none;
+}
+
+ul li a{
+	background:#1C1E1F;
+	color:#ccc;
+	border-bottom:1px solid #111;
+	display:block;
+	width:180px;
+	padding:10px;
+	text-decoration: none;
+}
+
+#sidebar-btn{
+	display:inline-block;
+	vertical-align: middle;
+	width:20px;
+	height:15px;
+	cursor:pointer;
+	margin:20px;
+	position:absolute;
+	top:0px;
+	right:-60px;
+}
+
+#sidebar-btn span{
+	height:1px;
+	background:white;
+	margin-bottom:5px;
+	display:block;
+}
+
+#sidebar-btn span:nth-child(2){
+	width:75%;
+}
+
+#sidebar-btn span:nth-child(3){
+	width:50%;
+}
+ .box{
+	background-color: ;
+    position: absolute;
+    height: 30%;
+    width: 90%;
+    left: 5%;
+    top: 0%;
+	allign: center;
+}
+
+footer {
+    padding-top: 850px;
+	padding-left: 200px;
+}
+
+ .title{
 	background-color: url(Background.jpg);
     position: absolute;
     height: 40%;
@@ -103,15 +337,15 @@ footer {
   	top: 40%;
   	allign: center;
   }
+
+   .titles{
+   display: block;
+   width: 100%;
+ }
+
   	.picture{
   		padding-top: 1.5%;
   		padding-left: 6%;
   	}
-  	.picture_middle{
-  		padding-top: 1.5%;
-  		padding-left: 6%;
-  	}
-  	.picture_right{
-  		padding-top: 1.5%;
-  		padding-left: 6%;
-  	}
+
+    }
